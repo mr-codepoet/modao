@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "data_cp":"../../components/date/index",
+    "like_cp":"../../components/like/index",
+    "button_cp":"../../components/button/index",
+    "movie_cp":"../../components/classic/movie/index",
+    "music_cp":"../../components/classic/music/index",
+    "essay_cp":"../../components/classic/essay/index",
+    "navi_cp":"../../components/navi/index"
+  }
+}

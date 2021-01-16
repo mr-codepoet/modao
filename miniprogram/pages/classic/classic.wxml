@@ -1,0 +1,17 @@
+  <view class="container">
+  	<view class="header">
+  		<data_cp class="episode" index="{{classic.index}}" />
+  		<view class="like-container">
+  			<like_cp class="like" bind:like="onLike" count="{{classic.fav_nums}}" like="{{classic.like_status}}" />
+  			<button_cp class="share-btn" openType="share" bind:getuserInfo="getuserInfo">
+  				<image class="share" src="../../components/button/images/share_ico.png" slot="img" />
+  			</button_cp>
+  		</view>
+  	</view>
+
+		<movie_cp content="{{classic.content}}" img="{{classic.image}}" hidden="{{classic.type!=100}}"></movie_cp>
+		<music_cp content="{{classic.content}}" img="{{classic.image}}" wx-if="{{classic.type==200}}" title="{{classic.title}}" src="{{classic.url}}"></music_cp>
+		<essay_cp content="{{classic.content}}" img="{{classic.image}}" wx-if="{{classic.type==300}}"></essay_cp>
+
+		<navi_cp class="navi" bind:left="onNext" bind:right="onPrevious" latest="{{latest}}" first="{{first}}" title="{{classic.title}}" ></navi_cp>
+  </view>

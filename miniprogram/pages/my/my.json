@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "button_cp": "../../components/image-button/index",
+    "v-preview": "../../components/preview/index"
+  }
+}

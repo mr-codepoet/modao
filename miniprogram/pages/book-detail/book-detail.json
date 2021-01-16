@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "tap_cp": "../../components/tagg/index",
+    "mask_cp": "../../components/mask/index",
+    "like_cp": "../../components/like/index",
+    "button_cp": "../../components/button/index"
+  }
+}

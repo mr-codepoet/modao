@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "tag_cp":"../../components/tagg/index",
+    "book_cp":"../../components/book/index",
+    "loading_cp":"../../components/loading/index"
+  }
+}
